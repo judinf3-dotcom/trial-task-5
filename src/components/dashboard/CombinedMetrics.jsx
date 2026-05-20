@@ -58,7 +58,6 @@ export default function CombinedMetrics() {
         <StatCard label="Store Revenue" value={formatCurrency(totals.storeRevenue)} change={14.6} icon={ShoppingCart} />
       </div>
 
-      {/* Revenue stacked area */}
       <div className="bg-card rounded-2xl border border-border/60 p-5">
         <h3 className="text-sm font-semibold text-foreground mb-4">Revenue by Source Over Time</h3>
         <div className="h-72">
@@ -111,7 +110,6 @@ export default function CombinedMetrics() {
           </div>
         </div>
 
-        {/* Per-entity breakdown */}
         <div className="bg-card rounded-2xl border border-border/60 p-5">
           <h3 className="text-sm font-semibold text-foreground mb-4">Revenue by Entity</h3>
           <div className="h-64">
@@ -132,7 +130,6 @@ export default function CombinedMetrics() {
         </div>
       </div>
 
-      {/* Views vs Units comparison */}
       <div className="bg-card rounded-2xl border border-border/60 p-5">
         <h3 className="text-sm font-semibold text-foreground mb-4">Views vs Units Sold Over Time</h3>
         <div className="h-64">
