@@ -137,7 +137,6 @@ export default function StoreMetrics() {
         </div>
       </div>
 
-      {/* 30-day trend */}
       <div className="bg-card rounded-2xl border border-border/60 p-5">
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-sm font-semibold text-foreground">Last 30 Days Trend</h3>

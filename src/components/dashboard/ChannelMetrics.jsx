@@ -127,7 +127,6 @@ export default function ChannelMetrics() {
         </div>
       </div>
 
-      {/* 30-day trend */}
       <div className="bg-card rounded-2xl border border-border/60 p-5">
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-sm font-semibold text-foreground">Last 30 Days Trend</h3>
@@ -153,7 +152,6 @@ export default function ChannelMetrics() {
         </div>
       </div>
 
-      {/* Per-channel breakdown */}
       {selectedChannel === 'all' && (
         <div className="bg-card rounded-2xl border border-border/60 p-5">
           <h3 className="text-sm font-semibold text-foreground mb-4">Channel Breakdown</h3>
